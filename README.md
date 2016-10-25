@@ -22,7 +22,7 @@ Now this LCD Kit has been tested on the 96Boards below:
 - Bubblegum-96: Still under test
 
 ### Quick Start
-#### HiKey(LeMaker version) Deabian for EMMC installation
+#### HiKey(LeMaker version) Deabian for EMMC Installation
 Download the pre-built kernel and Debian image from here. We need get the files below:
 - hisi-idt.py
 - l-loader.bin
@@ -64,6 +64,12 @@ $ sudo fastboot flash system jessie.updated
 After all the files have been flashed into the EMMC, we need remove link "3 and 4" from J601 CONFIG  header. Connect the mezzanine board to the HiKey, connect the MIPI LCD to the mezzanine board, **disconnect the HDMI out**, then power on the HiKey board. You should see the system windows on the MIPI LCD.
 
 **Note:** if the HiKey Emmc has been swapped without anything, you need first do the [BoardRecovery](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/Installation/BoardRecovery.md) to install the necessary boot files. Then continue to update the software to support the MIPI LCD.
+
+### Kernel Source Code 
+#### HiKey Kernel 3.18 Source Code
+Please refer to [HERE](https://github.com/xin3liang/linux/tree/hikey-tracking-integration-devel-drm-dsi-panel) for the MIPI LCD source code. The latest four commit is for the MIPI LCD.
+
+#### HiKey Kernel 4.4 Source Code 
 
 
 
