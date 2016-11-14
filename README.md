@@ -23,7 +23,7 @@ Now this LCD Kit has been tested on the 96Boards below:
 
 ### Quick Start
 #### HiKey(LeMaker version) Deabian for EMMC Installation
-Download the pre-built kernel and Debian image from here. We need get the files below:
+Download the pre-built kernel and Debian image from [here](https://github.com/Tony-HIT/96Boards_Mezzanine_LCD_Kit/blob/master/firmware/hikey_debian/download_link.md). We need get the files below:
 - hisi-idt.py
 - l-loader.bin
 - ptable-linux-8g.img
