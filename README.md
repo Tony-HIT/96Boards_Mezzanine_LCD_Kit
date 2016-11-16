@@ -22,7 +22,7 @@ Now this LCD Kit has been tested on the 96Boards below:
 
 ### Connection
 We need pay attention to the FFC cable connection between LCD and adapter board, we can refer to the pictrue below.
-![cable_connection](https://github.com/Tony-HIT/96Boards_Mezzanine_LCD_Kit/blob/master/img/cable_connection.jpg)
+![cable_connection](https://github.com/Tony-HIT/96Boards_Mezzanine_LCD_Kit/blob/master/img/cable_connection.png)
 
 ### Quick Start
 #### HiKey(LeMaker version) Deabian for EMMC Installation
