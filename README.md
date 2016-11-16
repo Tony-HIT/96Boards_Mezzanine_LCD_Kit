@@ -14,12 +14,15 @@
 - MIPI LCD display datesheet: download here
 
 
-
 ### Support List
 Now this LCD Kit has been tested on the 96Boards below:
 - HiKey(LeMaker version): Debian. (AOSP may support, but I do not have the source or image)
 - DrangonBoard 410c: Debian
 - Bubblegum-96: Still under test
+
+### Connection
+We need pay attention to the FFC cable connection between LCD and adapter board, we can refer to the pictrue below.
+![cable_connection](https://github.com/Tony-HIT/96Boards_Mezzanine_LCD_Kit/blob/master/img/cable_connection.jpg)
 
 ### Quick Start
 #### HiKey(LeMaker version) Deabian for EMMC Installation
