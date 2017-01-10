@@ -3,15 +3,14 @@
 
 ### Package Include
 - 1 PCS MIPI LCD with resolution 1280*800, landscape view
-- 1 PCS mezzanie board to connect between the MIPI LCD and 96Boards
+- 1 PCS mezzanie board to bridge the MIPI LCD and 96Boards
 - 1 PCS FPC cable
 
 **Note:** there is **only a display panel**, there is **not** touch screen on the display panel.
 
 ### Specification
-- Kit specification: download here
-- Mezzanie board schematic: download here
-- MIPI LCD display datesheet: download here
+- Mezzanie board schematic: download [here](https://github.com/Tony-HIT/96Boards_Mezzanine_LCD_Kit/tree/master/specification)
+- MIPI LCD display datesheet: download [here](https://github.com/Tony-HIT/96Boards_Mezzanine_LCD_Kit/blob/master/specification/HC070IY35023-16(800x1280)_Product_Spec.pdf)
 
 
 ### Support List
@@ -45,7 +44,7 @@ We can also download the pre-built kernel and Debian image from [here](http://ww
 - l-loader.bin
 - ptable-linux-8g.img
 - boot-fat.uefi
-- jessie.updated.imgS
+- jessie.updated.img
 
 #### HiKey(LeMaker version) Deabian for EMMC Installation
 After downloading, we need close the J601 CONFIG header "1 and 2 pins", "3 and 4 pins", open "5 and 6 pins" so that we can update the software in the HiKey Emmc. Connect the HiKey to the host Linux PC (the host Linux PC should have the [fastboot environment](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/Installation/BoardRecovery.md#make-sure-fastboot-is-set-up-on-host-computer/)) via the micro-usb on the HiKey, and then power on the HiKey.
